@@ -24,5 +24,5 @@ Traffic datasets are used to train prediction models for congestion analysis.
 Large trained models are excluded from the repository due to GitHub file size limits and are loaded locally during execution.
 
 ## Author
-Syed Thousif  
+Aduri Sai Charan Reddy 
 Presidency University, Bengaluru
