@@ -1,50 +1,28 @@
-Smart Traffic Management System for Urban Congestion
-1. Overview
+# Smart Traffic Management System for Urban Congestion
 
-An AI-based system designed to manage urban traffic and parking efficiently using machine learning and computer vision. It predicts traffic conditions, detects parking availability, and optimizes routing, including support for emergency vehicles.
+This project proposes an AI-based traffic management and smart parking system that improves urban mobility and reduces congestion.
 
-2. Features
-Traffic prediction using machine learning
-Parking slot detection using computer vision
-Emergency vehicle route optimization
-User and Admin modules
-Real-time updates
-3. Technology Stack
-Layer	Technology
-Frontend	React.js
-Backend	Node.js, Express.js
-Database	MongoDB
-Machine Learning	Python (LSTM, Random Forest)
-Computer Vision	OpenCV, YOLO
-4. System Modules
-4.1 User Module
-Register and login
-View traffic updates
-Book parking slots
-4.2 Admin Module
-Manage parking slots
-Monitor traffic data
-Handle system operations
-5. Workflow
-Collect real-time data (CCTV, sensors, GPS)
-Process and clean data
-Predict traffic using ML models
-Detect parking availability
-Provide updates and routing
-6. Outcomes
-Reduced congestion
-Efficient parking management
-Improved emergency response
-Better user experience
-7. Installation
-git clone https://github.com/your-username/smart-traffic-management.git
-cd smart-traffic-management
-npm install
-npm start
-8. Contributors
-Aduri Sai Charan Reddy
-Mithaeghar Mohammad Arif
-Thotamsetty Sai Sreekar
-9. Institution
+## Features
+- Real-time traffic prediction using Machine Learning
+- Smart parking slot detection using Computer Vision
+- Emergency vehicle priority routing
+- Dynamic traffic signal optimization
+- Web interface for monitoring traffic and parking availability
 
+## Technologies Used
+- Python
+- Streamlit
+- OpenCV
+- YOLOv5
+- Machine Learning models
+- Pandas & NumPy
+
+## Dataset
+Traffic datasets are used to train prediction models for congestion analysis.
+
+## Note
+Large trained models are excluded from the repository due to GitHub file size limits and are loaded locally during execution.
+
+## Author
+Syed Thousif  
 Presidency University, Bengaluru
